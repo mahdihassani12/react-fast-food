@@ -26,23 +26,24 @@ function App() {
     fetchData();
   }, []);
 
+  const filterItems = (categoryId) => {
+    fetchData(categoryId);
+  };
+
   const renderContent = () => {
-    if(loading) {
-      return <Loading theme="dark" />
+    if (loading) {
+      return <Loading theme="dark" />;
     }
 
     return <FastFoodList fastFoodItems={foods} />;
-  }
+  };
 
   return (
     <div className="wrapper bg-faded-dark">
       <Header></Header>
-      <Categories />
+      <Categories filterItems={ filterItems } />
 
-      <div className="container mt-4">
-        { renderContent() }
-      </div>
-
+      <div className="container mt-4">{renderContent()}</div>
     </div>
   );
 }
