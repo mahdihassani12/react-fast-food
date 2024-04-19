@@ -1,7 +1,3 @@
-.card {
-    opacity: 0;
-}
-
 .card__placeholder {
     height: 280px;
     animation: image-loading 1s linear infinite alternate;
