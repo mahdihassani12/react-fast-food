@@ -14,4 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+![Capture](https://github.com/mahdihassani12/react-fast-food/assets/46732091/f62f67dd-a3f9-439b-b88b-04d988adb544)
+
 
